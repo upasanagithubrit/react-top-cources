@@ -1,0 +1,13 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    background-color: #76a3c9; 
+
+}
+.cardssection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}

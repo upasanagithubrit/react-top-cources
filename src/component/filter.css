@@ -1,0 +1,31 @@
+.filter{
+    display: flex;
+    justify-content:center ;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+.button{
+   margin: 4px;
+    display: inline-block;
+    background-color: #0a905a;
+    color: #fff;               /* White text color */
+    padding: 10px 20px;        /* Padding inside the button */
+              
+    border-radius: 5px;        /* Slightly rounded corners */
+    font-size: 16px;           /* Font size */
+    font-weight: 600;          /* Font weight */
+    text-align: center;        /* Center text */
+    text-decoration: none;     /* Remove underline from text */
+    cursor: pointer;           /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; 
+}
+.button.active {
+    /* Styles for the active button */
+    
+    opacity: 1;
+  }
+  
+  .button.dull {
+    /* Styles for dull buttons */
+    opacity: 0.5;
+  }

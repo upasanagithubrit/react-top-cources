@@ -1,0 +1,8 @@
+.navbar{
+    background-color: rgb(6, 6, 107);
+    padding: 2px;
+    color: white;
+    display: flex;
+    justify-content: center;
+
+}
